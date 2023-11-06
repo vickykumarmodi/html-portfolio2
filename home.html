@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+
+        body{
+         background-color: white;
+            border-radius: 20px solid rgb(22, 18, 18);
+            
+
+            border: 20px;
+        }
+        .container{
+            display: flex;
+         
+           justify-content:center ;
+           flex-wrap: nowrap;
+           align-items: center;
+          
+          
+           
+        }
+        
+        .button-container{
+            display: grid;
+        
+            justify-content: center;
+        
+            margin-left: 60px;
+            padding:20px 50px 10px 50px;
+        }
+        
+        button{
+            background-color:rgb(75, 75, 249);
+            border: 3px solid rgb(24, 23, 23);
+            padding: 0px 30px 0px 30px;
+            color: white;
+            border-radius: 10px;
+            transition: 0.3s ease-in;
+           
+        }
+        button:hover{
+        
+            background-color:  #402acf;
+            border: 3px solid rgb(35, 30, 31);
+            padding: 0px 30px 0px 30px;
+            color:white;
+            border-radius: 10px;
+            transition: 0.1s ease-out;
+            cursor: pointer;
+        }
+        .home{
+            display: flex;
+           justify-content: center;
+            font-size: 40px;
+            font-family:'Times New Roman', Times, serif;
+
+        }
+        
+       .image{
+        display: grid;
+        grid-template-columns:600px 600px 600px ;
+        grid-template-rows: 300px 300px ;
+        padding-left: 40px;
+        gap: 20px;
+        
+        
+       }
+       img:hover{
+            
+        border-radius: 20%;
+
+        transition: 0.2 ease-out;
+        cursor: pointer;
+
+    }
+    </style>
+</head>
+<H1 class="home">Home Page </H1> <div class="container">
+         <div class="button-container" >
+<button onclick="buttonn1()"><h2 class="ab">Ranjan Bhaiya</h2></button>
+    </div>
+       <div class="button-container">
+<button onclick="buttonn2()"><h2 class="ab">Naranyan Murti</h2></button>
+    </div>
+      <div class="button-container">
+<button onclick="buttonn3()"><h2 class="ab">Cricket World</h2></button>
+    </div>
+      <div class="button-container">
+<button onclick="buttonn4()"><h2 class="ab">UJJAWALA DIDI </h2></button>
+    </div>
+      <div class="button-container" >
+<button onclick="buttonn5()"><h2 class="ab">Pranav Bhaiya</h2></button>
+    </div>
+     </div>
+    
+<body><div class="image">
+    <div><img class="motivation-img" src=https://images.pexels.com/photos/2246476/pexels-photo-2246476.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 height="300px" width="600px"/></div>
+    <div><img class="motivation-img" src=https://images.pexels.com/photos/8438918/pexels-photo-8438918.jpeg?auto=compress&cs=tinysrgb&w=600 height="300px" width="600px"/></div>
+    <div><img class="motivation-img" src=https://images.pexels.com/photos/8728380/pexels-photo-8728380.jpeg?auto=compress&cs=tinysrgb&w=600 height="300px" width="600px"/></div>
+    <div><img class="motivation-img" src=https://images.pexels.com/photos/1271971/pexels-photo-1271971.jpeg?auto=compress&cs=tinysrgb&w=600 height="300px" width="600px"/></div>
+    <div><img class="motivation-img" src=https://images.pexels.com/photos/7988087/pexels-photo-7988087.jpeg?auto=compress&cs=tinysrgb&w=600 height="300px" width="600px"/></div>
+    <div><img class="motivation-img" src=https://images.pexels.com/photos/674258/pexels-photo-674258.jpeg?auto=compress&cs=tinysrgb&w=600 height="300px" width="600px"/></div>
+    
+</div>
+
+<div class="button-container" >
+    <button onclick="buttonn6()"><h2 class="ab">Return</h2></button>
+        </div>
+         </div>
+<script>
+    function buttonn1(){
+        window.location.href="button1.html"
+    }
+    function buttonn2(){
+        window.location.href="button2.html"
+    }
+    function buttonn3(){
+        window.location.href="button3.html"
+    }
+    function buttonn4(){
+        window.location.href="button4.html"
+    }
+    function buttonn5(){
+        window.location.href="button5.html"
+    }
+   function buttonn5(){
+        window.location.href="button5.html"
+    }
+    
+    function buttonn6(){
+        window.location.href="index.html"
+    }
+</script>
+   
+</body>
+</html>

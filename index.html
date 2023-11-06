@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website </title>
+    <style>
+        
+   
+        body{
+            display: grid;
+            background-color: white;
+           
+     
+
+        }
+        .fifth{
+            display: grid;
+         
+            justify-content: center;
+            align-items: center;
+            margin-top: 100px;
+            background-color: white;
+          
+           
+           
+           
+        }
+        
+        .button-container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+           
+
+            margin-top: 50px;
+          
+    
+        }
+        button{
+            border-radius:5px ;
+            padding: 0px 30px 0px 30px;
+            color: aliceblue;
+            background-color:rgb(75, 75, 249);
+            border: 3px solid black ;
+            transition: 0.5s ease-in;
+        }
+        button:hover{
+
+          
+            color:white;
+            background-color:  #b2174b;
+            border: 3px solid rgb(0, 0, 0);
+            border-radius: 10px;
+    
+            transition: 0.5s ease-out;
+            cursor: pointer;
+    
+        }
+       
+        .flex-container{
+            display: grid;
+            grid-template-columns: 400px 400px 400px 400px;
+           
+        }
+        img{
+            border-radius: 100%;
+            transition: 1s ease-in;
+        }
+        img:hover{
+            border-radius: 20px;
+            transition: 1s ease-out;
+            cursor: pointer;
+    
+        }
+        .card-title{
+            display: flex;
+           
+           }
+       .card-text{
+        display: flex;
+       
+        font-size: 20px;
+       }
+       h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     
+       }
+
+       .home{
+        display: flex;
+       justify-content: center;
+        font-size: 40px;
+        font-family:'Times New Roman', Times, serif;
+
+        color: black;
+    }
+ 
+    .form-control{
+      display: grid;
+      gap: 5px;
+     
+      
+    }
+    label{
+      display: flex;
+      justify-content: center;
+      font-size: 25px;
+      margin: 50px 5px 0px 5px;
+      
+     
+  }
+  input,select,textarea{
+      padding: 10px 10px;
+      border: 2px solid #847a7a;
+      border-radius: 4px;
+      font-size: 15px;
+      margin: 25px 5px 0px 5px;
+  }
+ 
+    </style>
+
+</head>
+<body><h1 class="home"> Best Wishes For This Guy In Future</h1>
+    
+   <div class="fifth">
+    <div class="flex-container">
+        <div class="card" style="width: 25rem;">
+            <img src=https://scontent.frdp5-1.fna.fbcdn.net/v/t39.30808-6/391675590_3237603853199107_936259436068696304_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=1vlno6KrAToAX-Al4bS&_nc_ht=scontent.frdp5-1.fna&oh=00_AfApXqeyaRH5IlwysUsHEsbgVgOaahYfq24lb-1Np8sRtA&oe=6549C468 height="300px" width="300px" class="card-img-top" alt="didi image">
+            <div class="card-body">
+              <h2 class="card-title">Priye Ranjan Bhaiya</h2>
+              <p class="card-text"> Helped us a lot like personality development created a group so
+                that we can improve our English speaking and communication
+                skill.</p>
+            </div>
+          </div>
+
+
+          <div class="card" style="width: 20rem;">
+            <img src=https://www.mywbut.com/logo_pic/b5f80cc05d1f56702e8bea3f126e2ffc.jpg  height="300px" width="300px"   class="card-img-top" alt="flower image">
+            <div class="card-body">
+              <h2 class="card-title">Apna College BCET</h2>
+              <p class="card-text">With state-of-the-art facilities and a vibrant campus life,
+                BCET is the perfect place to learn and thrive And the students are encouraged to pursue their passion.
+                </p>
+            </div>
+          </div>
+
+
+          <div class="card" style="width: 20rem;">
+            <img src=https://scontent.frdp5-1.fna.fbcdn.net/v/t39.30808-6/398141584_1108091690560111_5977153622165600351_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=_o4BTg3HkgUAX8wXSFm&_nc_ht=scontent.frdp5-1.fna&oh=00_AfDKzr0L3pLLlVqNmx92AY5Hq5stku9hAApLNISookoDuw&oe=654A2A6C  height="300px" width="300px" class="card-img-top" alt="bhiya image">
+            <div class="card-body">
+              <h2 class="card-title">Pranav Ranjan Bhaiya </h2>
+              <p class="card-text">Pranav bhiya is very honesty and wise person. bhiya is so calm in ground. and always helped us in PD Group and also in cricket.</p>   
+            </div>
+          </div>
+
+          <div class="card" style="width: 20rem;">
+
+            <div class="form-control">
+              <label for="first_name">UserName</label>
+          <input id="first_name" name="first_name" placeholder="Enter Username....">
+      </div>
+
+  
+      <div class="form-control">
+
+        <label for="password">Password</label>
+        <input id="password" name="password" placeholder="Enter Password">
+      </div>
+            <div class="button-container">
+              <button onclick="home()"> <h3>Login</h3> </button>
+            
+            </div>
+              
+            </div>
+          </div>
+
+
+</div>
+       
+
+
+
+<script>
+function home() {
+  window.location.href = "home.html";
+}
+</script>
+</body>
+</html>
+<body>
+
+  
